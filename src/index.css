@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes blobMorph {
+  0% {
+    border-bottom-right-radius: 30.2232% 69.7768%;
+    border-top-left-radius: 59.8326% 59.9442%;
+    border-top-right-radius: 40.1116% 30.1674%;
+    border-bottom-left-radius: 69.8326% 40.1116%;
+  }
+  50% {
+    border-bottom-right-radius: 60% 40%;
+    border-top-left-radius: 30% 70%;
+    border-top-right-radius: 70% 30%;
+    border-bottom-left-radius: 40% 60%;
+  }
+  100% {
+    border-bottom-right-radius: 30.2232% 69.7768%;
+    border-top-left-radius: 59.8326% 59.9442%;
+    border-top-right-radius: 40.1116% 30.1674%;
+    border-bottom-left-radius: 69.8326% 40.1116%;
+  }
+}
+
+
+.animate-blob {
+  animation: blobMorph 8s ease-in-out infinite;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  /* padding-top: 50px; */
+  scroll-margin-top: 100px;
+}
