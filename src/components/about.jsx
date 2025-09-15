@@ -43,7 +43,7 @@ const About = ({darkMode}) => {
           Currently based in Cairo, I am open to relocation and dedicated to continuous learning.
           My focus is on enhancing my English proficiency and advancing my skills in web development.
         </Typography>
-         <a href="/Ahmed-Effat (Frontend developer)_CV (1).pdf" download style={{ textDecoration: 'none' }}>
+         <a href="/Ahmed Effat-Frontend Developer.pdf" download style={{ textDecoration: 'none' }}>
       <Button
         variant="contained"
         sx={{
